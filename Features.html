@@ -1,0 +1,154 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+      <title>Clappr.co</title>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!-- fontawesome library -->
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+      
+<!-- NAVIGATION BAR -->
+      <div class="navbar-fixed">
+        
+        <nav>
+          
+          <div class="nav-wrapper ">
+            
+            <div class="row">
+              
+              <div class="col s4 m2 l1">
+                <a href="index.html">
+                  <img class="responsive-img" src="images/logo.jpg">
+                </a>
+              </div>
+
+              <div class="col s11 m11">
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="Features.html">Features</a></li>
+                  <li><a href="Blog.html">Blog</a></li>
+                  <li><a href="FAQ.html">FAQs</a></li>
+                  <li><a class="waves-effect waves-light btn orange accent-3 z-depth-0">Get Started</a></li>
+                </ul>
+              </div>
+
+            </div>
+          
+          </div>
+        
+        </nav>
+      
+      </div>
+
+<!-- CONTAINER -->
+      
+      <div class="container">
+      <h1 class="flow-text center-align">FEATURES</h1>
+
+<!-- FOOTER SECTION -->
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l12 s12">
+                <h5 class="white-text center-align">We're all coming together in one place</h5>
+                <p class="grey-text text-lighten-4 center-align">18,174 Inventory Items</p>
+                <p class="grey-text text-lighten-4 center-align">5,324 Professionals</p>
+                <p class="grey-text text-lighten-4 center-align">168 Studios</p>
+                <a class="waves-effect waves-light btn orange accent-3 z-depth-0 center-align">Join Us!</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              © 2014 Copyright Text
+                <ul class="grey-text text-lighten-4 right hide-on-med-and-down">
+                  <li><a class="grey-text text-lighten-3" href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </footer>
+
+  
+
+
+      <!-- Fixed Action Button - Chat button -->
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li><a class="waves-effect waves-light btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="waves-effect waves-light btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="waves-effect waves-light btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="waves-effect waves-light btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+
+      </div>
+<!-- END CONTAINER -->
+
+      <!-- Fixed Action Button - Chat Box -->
+      <script type="text/javascript">
+        var elem = document.querySelector('.fixed-action-btn');
+        var instance = M.FloatingActionButton.init(elem, options);
+
+        // Or with jQuery
+
+        $(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton();
+        });
+      </script>
+
+      <!-- Mobile Collapse NavBar -->
+      <script type="text/javascript">
+        var elem = document.querySelector('.sidenav');
+        var instance = M.Sidenav.init(elem, options);
+
+        // Or with jQuery
+
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+      </script>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
+
+
+
+  <!-- 
+  To remove the ability of users to zoom in our website on mobile
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+
+
+  Animate.css
+
+  Download animate.css from https://daneden.github.io/animate.css/ and put the animate.css file inside your project folder.
+
+  Link to the lib: <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  To use: class="animationName" eg (<h2 class="animated bounce"> Hello </h2>)
+
+  Search for "w3schools how to" in google for more CSS tricks -->
