@@ -23,36 +23,25 @@
     <body>
       
 <!-- NAVIGATION BAR -->
-      <div class="navbar-fixed">
-        
-        <nav>
-          
-          <div class="nav-wrapper ">
+
+      <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">
+            <!-- <img class="responsive-img" src="images/logo.jpg"> -->
+          </a>
             
-            <div class="row">
-              
-              <div class="col s4 m2 l1">
-                <a href="index.html">
-                  <img class="responsive-img" src="images/logo.jpg">
-                </a>
-              </div>
+          <a href="#" data-activates="mobile-demo" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
 
-              <div class="col s11 m11">
-                <ul class="right hide-on-med-and-down">
-                  <li><a href="Features.html" target="_blank">Features</a></li>
-                  <li><a href="Blog.html" target="_blank">Blog</a></li>
-                  <li><a href="FAQ.html" target="_blank">FAQs</a></li>
-                  <li><a class="waves-effect waves-light btn orange accent-3 z-depth-0">Get Started</a></li>
-                </ul>
-              </div>
-
-            </div>
-          
-          </div>
-        
-        </nav>
-      
-      </div>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="Features.html" target="_blank">Features</a></li>
+            <li><a href="Blog.html" target="_blank">Blog</a></li>
+            <li><a href="FAQ.html" target="_blank">FAQs</a></li>
+            <li><a class="waves-effect waves-light btn orange accent-3 z-depth-0">Get Started</a></li>
+          </ul>
+        </div>
+      </nav>
 
 <!-- CONTAINER -->
       <div class="container">
@@ -116,50 +105,64 @@
         <div class="divider"></div>
 
 <!-- MAIN SECTION -->
-        <main>
-        
-          <div class="row section">
-            <div class="col s12 m6 blue-grey lighten-4 center-block">
-              <h5 class="left-align">Fast & Easy Booking</h5>
-            </div>
+        <section class="light-blue accent-4">
+
+
+<!-- FEATURE #01 -->
+
+          <div class="row transparent">
             <div class="col s12 m6">
-              <div class="card-panel teal">
-                <span class="white-text">
-                  <p class="right-align">
-                We've designed a simple and intuitive platform
-                with features that will allow everyone to focus
-                on their creativity and producing results.
-                Worry less on wasting time finding the right
-                resources that you need for your production.
-              </p>
+              <div class="valign-wrapper" id="feature-height">
+                <span class="white-text" id="feature-info">
+                  <h5 class="">Fast & Easy Booking</h5>
+                  <div class="divider" id="feature-info"></div>
+                  <p>
+                    We've designed a simple and intuitive platform
+                    with features that will allow everyone to focus
+                    on their creativity and producing results.
+                    Worry less on wasting time finding the right
+                    resources that you need for your production.
+                  </p>
                 </span>
               </div>
-              <!-- <p class="right-align">
-                We've designed a simple and intuitive platform
-                with features that will allow everyone to focus
-                on their creativity and producing results.
-                Worry less on wasting time finding the right
-                resources that you need for your production.
-              </p> -->
+            </div> 
+
+            <div class="col s12 m6" id="feature-height">
+              <div class="card-panel teal valign-wrapper" id="box-fill-height">
+                <span class="white-text">
+                  <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x200"></a>
+                </span>
+              </div>
             </div>
           </div>
+        
+<!-- FEATURE #02 -->
 
-          <div class="divider"></div>
-          
           <div class="row section">
-            <div class="col s12 m6 valign-wrapper">
-              <p class="left-align">
-                It's always hard to build connections
-                and get access to resources when you're
-                new to the industry. Even established
-                professionals constantly find and build
-                new connections. Fast track your network
-                building process here.
-              </p>
+            <div class="col s12 m6" id="feature-height">
+              <div class="card-panel teal valign-wrapper" id="box-fill-height">
+                <span class="white-text">
+                  <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x200"></a>
+                </span>
+              </div>
             </div>
-            <div class="col s12 m6">
-              <h5 class="right-align">Grow your network</h5>
-            </div>
+
+            <div class="right col s12 m6" id="feature-height">
+              <div class="card-panel teal valign-wrapper" id="box-fill-height">
+                <span class="white-text">
+                  <h5 class="right-align">Grow your network</h5>
+                  <div class="divider"></div>
+                  <p class="right-align">
+                    It's always hard to build connections<br>
+                    and get access to resources when you're<br>
+                    new to the industry. Even established<br>
+                    professionals constantly find and build<br>
+                    new connections. Fast track your network<br>
+                    building process here.
+                  </p>
+                </span>
+              </div>
+            </div> 
           </div>
           
           <div class="divider"></div>
@@ -204,7 +207,7 @@
           
           <div class="divider"></div>
                   
-        </main>
+        </section>
 
 <!-- SIGN UP OPTIONS -->
 
@@ -258,18 +261,18 @@
   
 
 
-      <!-- Fixed Action Button - Chat button -->
-      <div class="fixed-action-btn">
-        <a class="btn-floating btn-large red">
-          <i class="large material-icons">mode_edit</i>
-        </a>
-        <ul>
-          <li><a class="waves-effect waves-light btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-          <li><a class="waves-effect waves-light btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-          <li><a class="waves-effect waves-light btn-floating green"><i class="material-icons">publish</i></a></li>
-          <li><a class="waves-effect waves-light btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-        </ul>
-      </div>
+<!-- Fixed Action Button - Chat button -->
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul>
+            <li><a class="waves-effect waves-light btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="waves-effect waves-light btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="waves-effect waves-light btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="waves-effect waves-light btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+          </ul>
+        </div>
 
       </div>
 <!-- END CONTAINER -->
