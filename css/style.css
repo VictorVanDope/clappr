@@ -1,5 +1,13 @@
-#feature-height {
+.box-display {
+	border: 5px;
+	border-color: 000000;
+	box-sizing: border-box;
+}
+
+#feature-card {
 	height: 300px;
+	padding: 24px;
+	margin: 0.5rem 0 1rem 0;
 }
 
 #box-fill-height {
@@ -9,11 +17,3 @@
 #feature-info {
 	width: 60%;
 }
-
-/*.teal {
-	width: 100%;
-}*/
-
-/*.card-panel {
-	height: 100% !important; 
-}*/
