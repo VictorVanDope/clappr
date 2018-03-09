@@ -25,104 +25,125 @@
 
     <body>
       
-<!-- NAVIGATION BAR -->
 
-    <div class="navbar-fixed">
-      <nav class="roboto-slab light-blue accent-4 z-depth-0">
-        <div class="container nav-wrapper">
-          <a href="index.html" class="brand-logo">
-            <strong>CLAPPR</strong>
-            <!-- <p>Media Production Rentals</p> -->
-          </a>
-            
-          <a href="#" data-activates="mobile-demo" class="button-collapse">
-            <i class="material-icons">menu</i>
-          </a>
-
-          <ul class="right hide-on-med-and-down">
-            <li><a href="Features.html" target="_blank">Features</a></li>
-            <li><a href="Blog.html" target="_blank">Blog</a></li>
-            <li><a href="FAQ.html" target="_blank">FAQs</a></li>
-            <li><a class="btn btn-round waves-effect waves-light amber darken-3 z-depth-0" href="#">GET STARTED</a></li>
-          </ul>
-
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="Features.html" target="_blank">Features</a></li>
-            <li><a href="Blog.html" target="_blank">Blog</a></li>
-            <li><a href="FAQ.html" target="_blank">FAQs</a></li>
-            <li><a class="btn btn-round waves-effect waves-light amber darken-3 z-depth-0" href="#">GET STARTED</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
 
 <!-- HEADER SECTION -->
       
-      <div class="background">
+      <div class="banner screen-size" id="background-img">
+
+<!-- NAVIGATION BAR -->
+
+        <div class="navbar-fixed">
+          <nav class="roboto-slab light-blue accent-4 z-depth-0">
+            <div class="container nav-wrapper">
+              <a href="index.html" class="brand-logo">
+                <strong>CLAPPR</strong>
+              </a>
+                
+              <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+              </a>
+
+              <a class="right btn modal-trigger waves-effect waves-light amber darken-3 z-depth-0" href="#modal1">GET STARTED</a>
+
+              <!-- Modal Structure -->
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4>Modal Header</h4>
+                  <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+              <ul class="right hide-on-med-and-down">
+                <li><a href="Blog.html" target="_blank">Blog</a></li>
+                <li><a href="FAQ.html" target="_blank">FAQs</a></li>
+                <li></li>
+              </ul>
+
+              <ul class="side-nav" id="mobile-demo">
+                <li><a href="Blog.html" target="_blank">Blog</a></li>
+                <li><a href="FAQ.html" target="_blank">FAQs</a></li>
+                <li><a class="right btn modal-trigger waves-effect waves-light amber darken-3 z-depth-0" href="#modal1">GET STARTED</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+<!-- BANNER SECTION -->        
         
         <div class="container">
-          <h3 class="center-align">The Easiest Booking & Trading Platform<br>for Multimedia Production Professionals</h3>
           
-          <div class="row">
-            <div class="col l6 offset-l3">
-              <form>
-                <div class="input-field">
-                  <input id="search" type="search" required>
-                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                  <i class="material-icons">close</i>
-                </div>
-              </form>
-            </div>
+          <div class="tagline">
+            <h3 class="center-align">The Easiest Booking & Trading Platform<br>for Multimedia Production Professionals</h3>
+          </div>
+
+                    
+          <div class="container">
+
+            <nav>
+              <div class="nav-wrapper">
+                <form>
+                  <div class="input-field">
+                    <input placeholder="What are you looking for?" id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                  </div>
+                </form>
+              </div>
+            </nav>
+
           </div>
 
           <div class="row">
+          
             <div class="col s12 m8 offset-m2 l6 offset-l3">
-              <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/bfb4_ED77iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+              <div class="video-container top-margin">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ug82pKaGp8M?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
-              <p class="center-align">Watch how it works</p>
+              
+              <h5 class="center-align">Watch how it works</h5>
+            
             </div>
+          
           </div>
+
+<!-- LEAD CAPTURE -->
+  
+          <div class="divider"></div>
+
+          <div class="row">
+            <div class="col s12">
+                <p class="flow-text center-align">
+                  Get access now to the largest production equipment<br>database and professional network
+                </p>
+                <div class="btn-center">
+                  <a class="waves-effect waves-light btn-large orange accent-3 z-depth-0 modal-trigger" href="#modal1">
+                    <h5>CLICK HERE</h5>
+                    <!-- Simply sign up and start building your profile -->
+                  </a>
+                </div>
+            </div>
+            
+          </div> 
+
         </div>
 
       </div>
 
-<!-- LEAD CAPTURE -->
 
-        <div class="divider"></div>
-
-        <div class="section blue-grey lighten-5">
-          
-          <div class="row">
-            <form class="col s8 offset-s2">
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Email</label>
-                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
-                </div>
-              </div>
-            </form>
-          </div>
-
-          <div class="row">
-            <div class="col s12 m12 l12">
-              <p class="flow-text center-align">
-                Get access now to the largest production equipment database and professional network
-              </p>
-            </div>
-          </div>
-        
-        </div> 
-
-        <div class="divider"></div>
 
 <!-- MAIN SECTION -->
-        <section class="light-blue accent-4">
+      <section class="light-blue accent-4 gradient-overlay">
+        
+        <div class="container">
 
 <!-- FEATURE #01 -->
-
-          <div class="row card-panel teal">
+       
+          <div class="row card-panel transparent z-depth-0">
             <div class="col s12 m6">
               <div class="valign-wrapper" id="feature-card">
                 <span class="white-text">
@@ -147,10 +168,10 @@
               </div>
             </div>
           </div>
-        
+       
 <!-- FEATURE #02 -->
           
-          <div class="row card-panel teal">
+          <div class="row card-panel transparent z-depth-0">
             <div class="col s12 m6">
               <div class="valign-wrapper" id="feature-card">
                 <span class="white-text">
@@ -161,7 +182,7 @@
 
             <div class="col s12 m6">
               <div class="valign-wrapper" id="feature-card">
-                <span class="white-text right-align">
+                <span class="white-text">
                   <h5 class="">Grow your network</h5>
                   <div class="divider"></div>
                   <p>
@@ -175,7 +196,7 @@
 
 <!-- FEATURE #03 -->
 
-          <div class="row card-panel teal">
+          <div class="row card-panel transparent z-depth-0">
             <div class="col s12 m6">
               <div class="valign-wrapper" id="feature-card">
                 <span class="white-text">
@@ -202,7 +223,7 @@
           
 <!-- FEATURE #04 -->
 
-          <div class="row card-panel teal">
+          <div class="row card-panel transparent z-depth-0">
             <div class="col s12 m6">
               <div class="valign-wrapper" id="feature-card">
                 <span class="white-text">
@@ -213,7 +234,7 @@
 
             <div class="col s12 m6">
               <div class="valign-wrapper" id="feature-card">
-                <span class="white-text right-align">
+                <span class="white-text">
                   <h5 class="">Smart & Efficient Cost Planning Tools</h5>
                   <div class="divider"></div>
                   <p>
@@ -224,101 +245,131 @@
             </div> 
           </div>
 
-      <div class="divider"></div>
+        </div> <!-- End Container -->
                   
-        </section>
+      </section>
 
 <!-- SIGN UP OPTIONS -->
 
-        <div class="row" id="feature-card">
-          <div class="col m6">
-            <div class="valign-wrapper">
-              <span class="card-panel teal">
-                <p class="flow-text center-align">
-                  Looking for a set of
-                  production equipment to book
-                  for your next project?
-                  Search our database now.
-                </p>
-                
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                      <label for="email" data-error="wrong" data-success="right" class="white-text">
-                        Enter you email here
-                      </label>
-                  </div>  
+      <section>
 
-                </div>
-              </span>
+        <div class="container">
+
+          <div class="row" id="feature-card">
+            <div class="col m6">
+              <div class="valign-wrapper">
+                <span class="card-panel teal">
+                  <p class="flow-text center-align">
+                    Looking for a set of
+                    production equipment to book
+                    for your next project?
+                    Search our database now.
+                  </p>
+                  
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right" class="white-text">
+                          Enter you email here
+                        </label>
+                    </div>  
+
+                  </div>
+                </span>
+              </div>
             </div>
-          </div>
-          <div class="col m6">
-            <div class="valign-wrapper">
-              <span class="card-panel teal">
-                <p class="flow-text center-align">
-                  Start building your inventory
-                  and post them online for free.
-                  Let the community see you
-                  and get your first booking fast.
-                </p>
-                
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                      <label for="email" data-error="wrong" data-success="right" class="white-text">
-                        Enter you email here
-                      </label>
-                  </div>  
+            <div class="col m6">
+              <div class="valign-wrapper">
+                <span class="card-panel teal">
+                  <p class="flow-text center-align">
+                    Start building your inventory
+                    and post them online for free.
+                    Let the community see you
+                    and get your first booking fast.
+                  </p>
+                  
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right" class="white-text">
+                          Enter you email here
+                        </label>
+                    </div>  
 
-                </div>
-              </span>
-            </div>
-          </div>
-        </div>
-
-
-<!-- FOOTER SECTION -->
-        <footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l12 s12">
-                <h5 class="white-text center-align">We're all coming together in one place</h5>
-                <p class="grey-text text-lighten-4 center-align">18,174 Inventory Items</p>
-                <p class="grey-text text-lighten-4 center-align">5,324 Professionals</p>
-                <p class="grey-text text-lighten-4 center-align">168 Studios</p>
-                <a class="waves-effect waves-light btn orange accent-3 z-depth-0 center-align">Join Us!</a>
+                  </div>
+                </span>
               </div>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container">
-              © 2014 Copyright Text
-                <ul class="grey-text text-lighten-4 right hide-on-med-and-down">
-                  <li><a class="grey-text text-lighten-3" href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a class="grey-text text-lighten-3" href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                  <li><a class="grey-text text-lighten-3" href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-          </div>
-        </footer>
 
-<!-- Fixed Action Button - Chat button -->
-        <div class="fixed-action-btn">
-          <a class="btn-floating btn-large red">
-            <i class="large material-icons">mode_edit</i>
-          </a>
-          <ul>
-            <li><a class="waves-effect waves-light btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-            <li><a class="waves-effect waves-light btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-            <li><a class="waves-effect waves-light btn-floating green"><i class="material-icons">publish</i></a></li>
-            <li><a class="waves-effect waves-light btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-          </ul>
+        </div> <!-- End Container -->
+
+      </section>
+
+
+<!-- FOOTER SECTION -->
+
+      <footer class="page-footer roboto-slab light-blue accent-4 z-depth-0">
+        
+        <div class="container">
+        
+          <div class="row">
+        
+            <div class="col l12 s12">
+              <h5 class="white-text center-align">We're all coming together in one place</h5>
+              <p class="grey-text text-lighten-4 center-align flow-text">18,174 Inventory Items</p>
+              <p class="grey-text text-lighten-4 center-align flow-text">5,324 Professionals</p>
+              <p class="grey-text text-lighten-4 center-align flow-text">168 Studios</p>
+              
+              <div class="btn-center">
+                <a class="waves-effect waves-light btn-large orange accent-3 z-depth-0">
+                  <h5>Get Full Access Now For Free</h5>
+                  <!-- Simply sign up and start building your profile -->
+                </a>
+              </div>
+
+            </div>
+        
+          </div>
+
         </div>
 
+        <div class="footer-copyright">
+          
+          <div class="container">
+          
+            <div class="left">
+              <p>© 2018 Copyright | Clappr.co</p>
+            </div>
+
+            <div class="right">
+              <p>Powered by Dragonpay | VISA | Mastercard</p>
+              <!-- <ul class="grey-text text-lighten-4 right hide-on-med-and-down">
+                <li><a class="btn-flat grey-text text-lighten-3" href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a class="btn-flat grey-text text-lighten-3" href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a class="btn-flat grey-text text-lighten-3" href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              </ul> -->
+            </div>
+          
+          </div>
+        
+        </div>
+      </footer>
+
+<!-- Fixed Action Button - Chat button -->
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li><a class="waves-effect waves-light btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="waves-effect waves-light btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="waves-effect waves-light btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="waves-effect waves-light btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
       </div>
 
-<!-- END CONTAINER -->
+<!-- SCRIPTS -->
 
       <!--Import jQuery before materialize.js-->
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -328,6 +379,13 @@
       $( document ).ready(function(){
         $(".button-collapse").sideNav();
       });
+      </script>
+
+      <script>
+        $(document).ready(function(){
+          // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+          $('.modal').modal();
+        });
       </script>
       
       <!-- Fixed Action Button - Chat Box -->
